@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <Spinner
+        android:id="@+id/spinner_bind"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" />
+
+    <!--<Button-->
+        <!--android:id="@+id/button_choose2"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="75dp"-->
+        <!--android:background="@drawable/Pink"-->
+        <!--android:text="选择电源"-->
+        <!--android:textColor="@drawable/white" />-->
+
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/power1_2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="   电源一"/>
+
+        <RadioButton
+            android:id="@+id/power2_2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="   电源二"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/button_bind"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/lightgreen"
+        android:text="绑定"
+        android:textColor="@drawable/white" />
+
+</LinearLayout>
